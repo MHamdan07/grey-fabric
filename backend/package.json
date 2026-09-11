@@ -1,0 +1,31 @@
+{
+  "name": "grey-fabric-costing-backend",
+  "version": "1.0.0",
+  "description": "Enterprise Grey Fabric Costing REST API and Textile Calculation Engine",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "seed": "node src/database/seeds/initialData.js",
+    "test": "node tests/calculation.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "keywords": [
+    "textile",
+    "fabric-costing",
+    "grey-fabric",
+    "weaving",
+    "warp-weft",
+    "calculation-engine"
+  ],
+  "author": "Grey Fabric Costing System",
+  "license": "ISC"
+}
